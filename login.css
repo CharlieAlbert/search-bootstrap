@@ -10,7 +10,25 @@ form {
 }
 
 button {
-    background-color: #1C9346;
-    color: #ffffff;
-    border: none;
+  background-color: #1c9346;
+  color: #ffffff;
+  border: none;
+}
+
+.address {
+  margin: 0 0.25rem;
+}
+
+@media (max-width: 1199.98px) {
+  .number {
+    font-size: 12px;
+  }
+
+  .address {
+    margin: 0 0;
+  }
+
+  .pupils {
+    margin-bottom: 20px;
+  }
 }
